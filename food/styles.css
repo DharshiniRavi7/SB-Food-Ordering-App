@@ -86,25 +86,43 @@ header nav ul li a {
     color: white;
     border: none;
     padding: 10px 15px;
-    border-radius: 5px;
+    margin-top: 10px;
     cursor: pointer;
-    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #e65c00;
 }
 
 .cart {
     padding: 50px 20px;
+    background-color: #fff;
 }
 
-.cart p {
-    font-size: 1.25rem;
+#cart-items {
+    margin-bottom: 20px;
+}
+
+.cart button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 footer {
     background-color: #ff6600;
     color: white;
+    padding: 10px;
     text-align: center;
-    padding: 15px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+}
+.order-confirmation {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffcc66;
+    color: #333;
+    font-size: 1.5rem;
+    border-radius: 5px;
 }
