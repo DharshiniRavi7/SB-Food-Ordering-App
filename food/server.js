@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 // Routes
 app.use('/api/menu', menuRoutes);
 
-// MongoDB connection (optional)
+// MongoDB connection (optional, can be used to store menu items)
 mongoose.connect('mongodb://localhost/sbfoods', {
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -26,5 +26,5 @@ mongoose.connect('mongodb://localhost/sbfoods', {
 
 // Start the server
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+    console.log(Server running on port ${PORT});
 });
